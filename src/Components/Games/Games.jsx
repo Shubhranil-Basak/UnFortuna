@@ -3,7 +3,7 @@ import GamesCard from "./GamesCard";
 import { Container, Row, Col } from "react-bootstrap";
 import coin from "../../assets/coin.png";
 import rps from "../../assets/rps.png";
-import _7ud from "../../assets/7ud.png";
+import _7ud from "../../assets/7UD.png";
 import mines from "../../assets/mines.png";
 import cards from "../../assets/cards.png";
 import slot_machine from "../../assets/slot-machine.png";
