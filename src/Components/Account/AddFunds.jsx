@@ -79,13 +79,6 @@ const PaymentForm = () => {
           >
             Pay {amount} Coins
           </button>
-
-          <button
-            type="submit"
-            className="form-button"
-          >
-            <a href="/src/assets/cardinfo.txt" target="_blank" style={{textDecoration: "none", color: "inherit" }}>Fake card info</a>
-          </button>
         </div>
         <p className="payment-status">{paymentStatus}</p>
       </form>
