@@ -1,0 +1,4 @@
+Card Number: 4242 4242 4242 4242
+MM/YY: any future date
+CVV: 123
+ZIP: 79900
