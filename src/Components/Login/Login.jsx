@@ -39,7 +39,7 @@ const Login = () => {
         <h3 className="text-center mb-4">Login</h3>
         <Form onSubmit={handleLogin}>
           <Form.Group className="mb-3" controlId="formEmail">
-            <Form.Label>Email</Form.Label>
+            <Form.Label style={{color: "black"}}>Email</Form.Label>
             <Form.Control
               type="email"
               placeholder="Enter email"
@@ -48,7 +48,7 @@ const Login = () => {
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formPassword">
-            <Form.Label>Password</Form.Label>
+            <Form.Label style={{color: "black"}}>Password</Form.Label>
             <Form.Control
               type="password"
               placeholder="Enter password"

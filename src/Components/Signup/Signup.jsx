@@ -59,7 +59,7 @@ const Signup = () => {
             <Form onSubmit={handleSignup}>
               {/* Username Field */}
               <Form.Group className="mb-3" controlId="username">
-                <Form.Label>Username</Form.Label>
+                <Form.Label style={{color: "black"}}>Username</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Enter your username"
@@ -70,7 +70,7 @@ const Signup = () => {
 
               {/* Email Field */}
               <Form.Group className="mb-3" controlId="email">
-                <Form.Label>Email</Form.Label>
+                <Form.Label style={{color: "black"}}>Email</Form.Label>
                 <Form.Control
                   type="email"
                   placeholder="Enter your email"
@@ -81,7 +81,7 @@ const Signup = () => {
 
               {/* Password Field */}
               <Form.Group className="mb-3" controlId="password">
-                <Form.Label>Password</Form.Label>
+                <Form.Label style={{color: "black"}}>Password</Form.Label>
                 <Form.Control
                   type="password"
                   placeholder="Enter your password"
@@ -92,7 +92,7 @@ const Signup = () => {
 
               {/* Confirm Password Field */}
               <Form.Group className="mb-3" controlId="confirmPassword">
-                <Form.Label>Confirm Password</Form.Label>
+                <Form.Label style={{color: "black"}}>Confirm Password</Form.Label>
                 <Form.Control
                   type="password"
                   placeholder="Confirm your password"
