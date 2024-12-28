@@ -77,6 +77,7 @@ const Home = () => {
                   justifyContent: "space-between",
                   padding: "5px 0",
                   borderBottom: "1px solid rgba(255, 255, 255, 0.2)",
+                  color: user.balance > 10000 ? "goldenrod" : "white",
                 }}
               >
                 <span>
