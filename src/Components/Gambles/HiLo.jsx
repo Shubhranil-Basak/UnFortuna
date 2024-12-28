@@ -96,6 +96,26 @@ const HiLoGame = () => {
 
   // Function to handle guesses
   const makeGuess = async (playerGuess) => {
+
+    if (betAmount > balance) {
+      alert("You don't have enough balance!");
+      return;
+    }
+
+    if(pool <= 0){
+      alert(
+        `The pool isn't enough to play this game! Please wait for the pool to be updated!`
+      );
+      return;
+    }
+
+    if (pool <= balance / 2.5) {
+      alert(
+        `The pool isn't enough to play this game! Please wait for the pool to be updated!`
+      );
+      return;
+    }
+
     if (gameOver || guesses >= 16) return;
 
     const newCard = drawCard();
