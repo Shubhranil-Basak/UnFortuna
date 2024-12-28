@@ -80,6 +80,10 @@ const Wheel_ = () => {
     const gameRef = doc(db, "games", "wheel");
 
     if (data[prizeNumber].option === "better luck next time") {
+      newBalance -= 50;
+      await updateDoc(gameRef, {
+        pool: increment(50),
+      });
       alert("Better luck next time!");
     } else {
       newBalance -= 50;
